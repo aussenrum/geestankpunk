@@ -261,22 +261,3 @@ del {
     text-decoration: underline;
 }
 
-/* Bild zwischen Kontakt und Impressum */
-#image-between {
-    padding: 50px 0;
-    text-align: center;
-}
-
-#image-between img {
-    max-width: 100%;
-    height: auto;
-    filter: grayscale(100%); /* Bild in Schwarz-Weiß */
-    transition: filter 0.3s ease, transform 0.3s ease; /* Für den Hover-Effekt */
-    border-radius: 8px;
-}
-
-#image-between img:hover {
-    filter: grayscale(0%); /* Bild wird bei Hover in Farbe angezeigt */
-    transform: scale(1.05); /* Leichter Vergrößerungseffekt beim Hover */
-}
-
