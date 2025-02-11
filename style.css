@@ -93,7 +93,7 @@ nav {
     background-attachment: fixed; /* Parallax-Effekt */
     min-height: 500px; /* Damit der Abschnitt ausreichend Höhe hat */
     background-color: black;
-    color: limegreen;
+    color: #d6d257;
     text-align: center;
     padding: 100px 0;
 }
