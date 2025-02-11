@@ -1,0 +1,141 @@
+/* Grundlegende Styles */
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header-image img {
+    max-width: 50%; /* Damit das Bild vollständig im Header angezeigt wird */
+    max-height: 50%;
+    object-fit: contain; /* Bild skalieren, ohne Verzerrung */
+}
+
+.video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0.75; /* Deckkraft um 25% reduziert */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: left;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    left: 15px;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 200px;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background: limegreen;
+    color: black;
+}
+
+/* Parallax für den Musik-Bereich */
+.parallax-background {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* Parallax-Effekt */
+    min-height: 500px; /* Damit der Abschnitt ausreichend Höhe hat */
+    background-color: black;
+    color: limegreen;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Musik-Bereich (mit Parallax-Effekt und Bild) */
+#music.parallax-background {
+    background-image: url('https://i.imgur.com/z1z67Zn.png'); /* Beispielbild für den Musik-Bereich */
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+#music.parallax-background:hover {
+    filter: grayscale(0%);
+}
+
+/* Spotify-Player */
+.spotify-player iframe {
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: 380px;
+    border-radius: 8px;
+}
+
+/* Text Styling */
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    animation: blink 1s infinite alternate;
+    text-transform: uppercase;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* Animation für Texte */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}

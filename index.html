@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTANK - HARDCORE PUNK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="menu" id="menu">
+            <a href="#about">Über Gestank</a>
+            <a href="#music">Musik</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+    </nav>
+    
+    <header>
+    <div class="header-image">
+        <img src="https://i.imgur.com/n7EbNmG.png" alt="Gestank Logo">
+    </div>
+    <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/1055617231?autoplay=1&muted=1&loop=1&background=1#t=25s" allow="autoplay; fullscreen"></iframe>
+    </div>
+</header>
+
+     <br></br> <br></br> <br></br>
+    <section id="about">
+        <h2>ÜBER GESTANK</h2>
+        <p>gestank gibt es schon eine ganze weile. unsere musik bewegt sich zwischen wütendem hardcore-punk und düsterem chaos. wir haben in kellern gespielt, auf festivals, in besetzten häusern und zwischendurch mal irgendwo, wo wir nicht hätten sein sollen. unsere texte sind direkt, unsere songs kurz und laut. wenn du uns suchst, findest du uns irgendwo zwischen krach und wahnsinn.</p>
+    </section>
+    <br></br> <br></br> <br></br> <br></br> <br></br>
+    <div class="spacer"></div>
+    
+    <!-- Musik-Bereich mit Parallax-Effekt -->
+    <section id="music" class="parallax-background">
+        <h2>MUSIK</h2>
+        <!-- Spotify-Player -->
+        <div class="spotify-player">
+            <iframe src="https://open.spotify.com/embed/album/3NLTHh8qTCyQTDm8jKCq1L?si=07RwoibuR3ayYJok_mW7Lg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </section>
+    
+    <div class="spacer"></div>
+    
+    <section id="contact">
+        <h2>KONTAKT</h2>
+        <p><a href="https://linktr.ee/gestank">linktr.ee/gestank</a></p>
+        <p><a href="https://www.instagram.com/gestankpunk/">Instagram</a> | <a href="https://www.facebook.com/gestankpunk/">Facebook</a></p>
+    </section>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "flex") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "flex";
+                menu.style.flexDirection = "column";
+            }
+        }
+    </script>
+</body>
+</html>
