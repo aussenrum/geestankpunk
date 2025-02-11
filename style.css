@@ -131,21 +131,21 @@ h2 {
 /* Unregelmäßiger Blink-Effekt */
 @keyframes blink-glitch {
     0% { opacity: 1; }
-    20% { opacity: 0.3; }
+    20% { opacity: 0; }
     40% { opacity: 1; }
-    60% { opacity: 0.6; }
+    60% { opacity: 0; }
     80% { opacity: 1; }
     100% { opacity: 0.4; }
 }
 
 /* Glitch-Effekt */
 @keyframes glitch {
-    0% { text-shadow: 1px 1px red, -1px -1px blue; }
-    20% { text-shadow: -2px -2px red, 2px 2px blue; }
-    40% { text-shadow: 2px -2px red, -2px 2px blue; }
-    60% { text-shadow: -3px 3px red, 3px -3px blue; }
-    80% { text-shadow: 3px -3px red, -3px 3px blue; }
-    100% { text-shadow: 1px 1px red, -1px -1px blue; }
+    0% { text-shadow: 1px 1px red, -1px -1px white; }
+    20% { text-shadow: -2px -2px red, 2px 2px white; }
+    40% { text-shadow: 2px -2px red, -2px 2px white; }
+    60% { text-shadow: -3px 3px red, 3px -3px white; }
+    80% { text-shadow: 3px -3px red, -3px 3px white; }
+    100% { text-shadow: 1px 1px red, -1px -1px white; }
 }
 
 
@@ -159,7 +159,7 @@ p {
 /* Animation für Texte */
 @keyframes blink {
     0% { opacity: 1; }
-    50% { opacity: 0.5; }
+    50% { opacity: 0; }
     100% { opacity: 1; }
 }
 
