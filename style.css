@@ -148,50 +148,6 @@ body, h2, p {
     max-width: 800px; /* Maximale Breite, damit der Text nicht zu breit wird */
 }
 
-/* Buttons für die Sozialen Netzwerke */
-.social-button {
-    color: gray; /* Graue Farbe für die Icons */
-    text-decoration: none; /* Entfernt den Unterstrich */
-    padding: 8px 12px;
-    margin: 5px;
-    display: inline-block;
-    border-radius: 4px;
-    transition: all 0.3s ease; /* Für einen sanften Hover-Effekt */
-}
-
-.social-button:hover {
-    color: white;
-    background-color: limegreen; /* Hintergrundfarbe bei Hover */
-}
-
-/* Spezifische Buttons für Instagram, Facebook, Bandcamp und YouTube */
-.instagram {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png') no-repeat center center;
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-}
-
-.facebook {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg') no-repeat center center;
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-}
-
-.bandcamp {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Bandcamp_logo.png') no-repeat center center;
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-}
-
-.youtube {
-    background: url('https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png') no-repeat center center;
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-}
 
 /* Buttons für die Sozialen Netzwerke */
 .social-button {
