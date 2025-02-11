@@ -170,25 +170,9 @@ body, h2, p {
 /* Hover-Effekt: Graustufen zu Farbe */
 .social-button:hover {
     color: white;
-    background-color: limegreen; /* Hintergrundfarbe bei Hover */
+    background-color: #d6d257;#d6d257; /* Hintergrundfarbe bei Hover */
 }
 
-/* Spezifische Buttons für Instagram, Facebook, Bandcamp und YouTube */
-.instagram {
-    background: #e4405f; /* Instagram-Farbe */
-}
-
-.facebook {
-    background: #1877f2; /* Facebook-Farbe */
-}
-
-.bandcamp {
-    background: #1e1e1e; /* Bandcamp-Farbe */
-}
-
-.youtube {
-    background: #ff0000; /* YouTube-Farbe */
-}
 
 /* Verhindert die Hintergrundfarbe für Bandcamp, da das Standard-Favicon verwendet wird */
 .social-button i {
@@ -201,7 +185,7 @@ body, h2, p {
 #gigs {
     padding: 50px 0;
     background-color: #222222;
-    color: limegreen;
+    color: #d6d257;
     text-align: center;
 }
 
@@ -236,7 +220,7 @@ del {
 #impressum {
     padding: 50px 0;
     background-color: #222222;
-    color: limegreen;
+    color: #d6d257;
     text-align: center;
 }
 
@@ -254,7 +238,7 @@ del {
 }
 
 #impressum a {
-    color: limegreen;
+    color: #d6d257;
     text-decoration: none;
 }
 
