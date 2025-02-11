@@ -193,3 +193,42 @@ body, h2, p {
     height: 30px;
 }
 
+/* Buttons für die Sozialen Netzwerke */
+.social-button {
+    color: gray; /* Graue Farbe für die Icons */
+    text-decoration: none; /* Entfernt den Unterstrich */
+    padding: 8px 12px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 50%; /* Runde Buttons */
+    transition: all 0.3s ease; /* Für einen sanften Hover-Effekt */
+    font-size: 24px; /* Größe der Icons */
+}
+
+/* Hover-Effekt: Graustufen zu Farbe */
+.social-button:hover {
+    color: white;
+    background-color: limegreen; /* Hintergrundfarbe bei Hover */
+}
+
+/* Spezifische Buttons für Instagram, Facebook, Bandcamp und YouTube */
+.instagram {
+    background: #e4405f; /* Instagram-Farbe */
+}
+
+.facebook {
+    background: #1877f2; /* Facebook-Farbe */
+}
+
+.bandcamp {
+    background: #1e1e1e; /* Bandcamp-Farbe */
+}
+
+.youtube {
+    background: #ff0000; /* YouTube-Farbe */
+}
+
+/* Verhindert die Hintergrundfarbe für Bandcamp, da das Standard-Favicon verwendet wird */
+.social-button i {
+    font-size: 30px; /* Größere Icons */
+}
