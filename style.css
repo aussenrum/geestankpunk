@@ -1,7 +1,7 @@
-/* Grundlegende Styles */
+/* Schriftfarbe auf der gesamten Seite ändern */
 body {
     background-color: black;
-    color: #d6d257;
+    color: #d6d257; /* Schriftfarbe geändert */
     font-family: 'Oswald', sans-serif;
     text-align: center;
     font-size: 1.2rem;
@@ -9,6 +9,7 @@ body {
     padding: 0;
     text-transform: lowercase;
 }
+
 
 header {
     position: relative;
