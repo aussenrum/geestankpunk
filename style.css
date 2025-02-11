@@ -196,3 +196,39 @@ body, h2, p {
     vertical-align: middle;
     display: inline-block;
 }
+
+#gigs {
+    padding: 50px 0;
+    background-color: #222222;
+    color: limegreen;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    animation: blink 1s infinite alternate;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+del {
+    color: gray;
+}
+
