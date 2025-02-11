@@ -268,3 +268,6 @@ del {
     text-decoration: underline;
 }
 
+animation: blink 0.5s infinite alternate;  /* Schnelleres Blinken */
+
+
