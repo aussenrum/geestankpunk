@@ -160,6 +160,10 @@ body, h2, p {
     transition: all 0.3s ease; /* Für einen sanften Hover-Effekt */
     font-size: 30px; /* Größere Icons */
     line-height: 0; /* Entfernt unerwünschte Abstände */
+    width: 40px; /* Festgelegte Breite für den Button */
+    height: 40px; /* Festgelegte Höhe für den Button */
+    text-align: center;
+    vertical-align: middle;
 }
 
 /* Hover-Effekt: Graustufen zu Farbe */
@@ -185,8 +189,10 @@ body, h2, p {
     background: #ff0000; /* YouTube-Farbe */
 }
 
-/* Sicherstellen, dass nur die Icons angezeigt werden */
+/* Verhindert die Hintergrundfarbe für Bandcamp, da das Standard-Favicon verwendet wird */
 .social-button i {
-    font-size: 30px; /* Icons in der gewünschten Größe */
+    font-size: 30px; /* Größere Icons */
     line-height: 0; /* Verhindert, dass es zusätzliche vertikale Abstände gibt */
+    vertical-align: middle;
+    display: inline-block;
 }
